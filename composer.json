@@ -10,14 +10,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "^5.0",
-        "illuminate/filesystem": "^5.0",
-        "cloudconvert/cloudconvert-php": "^2.2"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/filesystem": "^6.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "patchwork/utf8": "1.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.3.5",
-        "mockery/mockery": "0.9.*@dev"
+        "phpunit/phpunit": "^9.3.3",
+        "mockery/mockery": "^1.4.2"
     },
     "autoload": {
         "psr-0": {

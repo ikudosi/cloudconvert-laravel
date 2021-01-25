@@ -31,7 +31,7 @@ class CloudConvertLaravelServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['cloudconvert'] = $this->app->share(function($app)
+		$this->app->singleton('cloudconvert', function($app)
 		{
 			return new CloudConvert(config('cloudconvert'));
 		});
